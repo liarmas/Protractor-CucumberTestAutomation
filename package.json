@@ -1,0 +1,30 @@
+{
+  "name": "protractortestingframework",
+  "version": "1.0.0",
+  "description": "Protractor Testing Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JSFiles/config.js",
+    "cucumbertest": "protractor JSFiles/cucumberconfig.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "ldearmas",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "~2.8.7",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~12.12.2",
+    "jasmine": "~3.5.0",
+    "protractor": "^5.4.3",
+    "ts-node": "~8.6.2",
+    "typescript": "^3.8.2",
+    "protractor-cucumber-framework": "~6.2.0",
+    "cucumber": "~6.0.5",
+    "@types/cucumber": "~4.0.4",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "cucumber-html-reporter": "5.1.0"
+  }
+}
